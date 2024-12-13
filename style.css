@@ -1,0 +1,186 @@
+/*font-family: 'Roboto', sans-serif;  */
+* {
+    margin: 0;
+    /*MARGEM*/
+    padding: 0;
+    /*PREENCHIMENTO */
+    box-sizing: border-box;
+    /*DIMENSIONAMENTO DE CAIXA */
+    font-family: 'Roboto', sans-serif;
+    /* FONTE FAMILIA*/
+    outline: none;
+    /*CONTORNO */
+}
+
+
+body {
+    /*CORPO*/
+
+    background: rgb(58, 58, 68)
+}
+
+.logo {
+    /*LOGOTIPO*/
+    width: 300px;
+    /*LARGURA */
+    display: block;
+    /*MOSTRAR BLOQUEAR*/
+    margin: 20px auto;
+    /*MARGEM*/
+}
+
+main {
+    /* PRINCIPAL*/
+    width: 375px;
+    /*LARGURA*/
+    background: #f4f4f4;
+    /*FUNDO*/
+    border-radius: 20px;
+    /*RAIO DA BORDA*/
+    margin: 0 auto 40px;
+    /*MARGEM*/
+    padding: 44px 24px 23px;
+    /*PREENCHIMENTO*/
+}
+
+label {
+    /*ROTULO*/
+    color: #777777;
+    /*COR*/
+    font-weight: 400;
+    /*ESPESSURA DA FONTE*/
+    font-size: 14px;
+    /*TAMANHO DA FONTE*/
+
+
+}
+
+select,
+/* SELECIONAR*/
+input {
+    /*ENTRADA*/
+    background: #FFFFFF;
+    /*FUNDI*/
+    border: 1px solid #bbbbbb;
+    /*FRONTEIRA*/
+    border-radius: 4px;
+    /*RAIO DA BORDA*/
+    height: 48px;
+    /*AUTURA*/
+    width: 100%;
+    /*LARGURA*/
+    margin-bottom: 24px;
+    /*MARGEM INFERIOR*/
+    appearance: none;
+    /*APARENCIA NENHUMA*/
+    padding-left: 18px;
+    /*PREENCHIMENTO ESQUERDO*/
+    font-weight: 700;
+    /*ESPESURA DA FONTE*/
+    font-size: 16px;
+    /*TAMANHO DA FONTE*/
+    color: #555555;
+    /* =COR*/
+    cursor: pointer;
+    /*CURSOR*/
+
+
+
+
+}
+
+button {
+    /*ENTRADA*/
+    background: #772fd3;
+    /*FUNDO*/
+    border-radius: 5px;
+    /*RAIO DA BORDA*/
+    width: 100%;
+    /*LARGURA*/
+    border: none;
+    /*FRONTEIRA*/
+    height: 48px;
+    /*ALTURA*/
+    color: #ffffff;
+    /* =COR*/
+    font-size: 18px;
+    /*TAMANHO DA FONTE*/
+    font-weight: 700;
+    /* espessura da fonte*/
+    cursor: pointer;
+    /*CURSOR PONTEIRO*/
+
+}
+
+button:hover {
+    /*BOTÃO PAIRAR */
+    opacity: 0.9;
+    /*OPACIDADE*/
+}
+
+button:active {
+    /*BOTAO ATIVADO*/
+    opacity: 0.7;
+    /*OPACIDADE*/
+}
+
+section {
+    /* seção*/
+    border: 1px solid #772fd3;
+    /*FRONTEIRA*/
+    border-radius: 20px;
+    /*RAIO DA BORDA*/
+    margin-top: 36px;
+    /*MARGEM SUPERIOR*/
+    padding: 12px;
+    /*PREENCHIMENTO*/
+    display: flex;
+    /*MOSTRAR FLEXIVEL*/
+    flex-direction: column;
+    /*DIREÇÃO FLEXIVEL COLUNA*/
+    align-items: center;
+    /*ALINHAR ITENS NO CENTRO*/
+}
+
+.arrow-img {
+    /* seta imagem*/
+    margin: 15px 0;
+    /*margem */
+
+}
+
+.currency-box {
+    /*CAIXA DE MODEDA*/
+    display: flex;
+    /*MOSTRAR FLEXIVEL*/
+    flex-direction: column;
+    /*DIREÇÃO FLEXIVEL COLUNA*/
+    align-items: center;
+    /*ALINHAR ITENS CENTRO*/
+    gap: 4px;
+    /*BREXA*/
+}
+
+
+
+.currency {
+    /*MOEDA*/
+    color: #777777;
+    /*COR*/
+    font-size: 14px;
+    /*TAMANHO DA FONTE*/
+
+}
+
+.currency-value,
+/*VALRO DA MOEDA*/
+.corrency-value-to-convert {
+    /*VALOR DE CORRESPONDENCIA PARA CONVERSAO*/
+    color: #555555;
+    /*COR*/
+    font-weight: 700;
+    /*ESPESSURA DA FONTE*/
+    font-size: 20px;
+    /*TAMANHO DA FONTE*/
+
+}
